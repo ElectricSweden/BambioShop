@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Antic Slab', serif;
+    overflow-x: hidden;
+}
+
+.title{
+    background-color: rgb(175, 106, 46);
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(177, 116, 63);
+    width: 100vw;
+    height: 29vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 12vw;
+    height: 24vh;
+    background-color: darkgray;
+    border-radius: 0.5vw;
+}
+
+.main-container{
+    background-color: darkgoldenrod;
+    width: 100vw;
+    height: 56vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.big-card{
+    background-color: white;
+    width: 30vw;
+    height: 52vh;
+    border-radius: 0.9vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(148, 78, 13);
+    margin-bottom: 1vw;
+    border-radius: 0.6vw;
+}
+
+.buy{
+    width: 7vw;
+    height: 2.5vw;
+    margin-left: 13vw;
+    border-radius: 0.5vw;
+    background-color: rgb(158, 78, 32);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.logo{
+    background-color: transparent;
+    width: 96px;
+    height: 96px;
+    background-image: url(icons8-bamboo-96.png);
+}
+
+.checkout{
+    background-color: transparent;
+    width: 96px;
+    height: 96px;
+    margin-right: 2vw;
+    background-image: url(icons8-checkout-96.png);
+}
+
+.home-link{
+    width: 96px;
+    height: 96px;
+    border: none;
+    margin-left: 2vw;
+    background-color: transparent;
+}
